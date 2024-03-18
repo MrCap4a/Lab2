@@ -34,4 +34,7 @@ int main()
     cout << endl;
 
     cout << "Сумма положительных чисел: " << sum;
+
+    fileA.close();
+    fileB.close();
 }
